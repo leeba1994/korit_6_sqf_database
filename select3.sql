@@ -5,6 +5,8 @@
 select
 	admission_date,
 	count(*)
+    #count(student_name)
+    #count(introduce)
 from
 	student_tb
 group by
